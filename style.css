@@ -1,1 +1,37 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+#welcome, .Arrow {
+    cursor: pointer;
+}
+
+#welcome, .Container {
+    position: fixed;
+        top: 50%;
+        left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ------------------------------------------------------------------------------- */
+
+.Arrow {
+    font-size: 30px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+.Arrow.Up {
+    top: 0;
+}
+.Arrow.Down {
+    bottom: 0;
+}
