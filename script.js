@@ -4,9 +4,9 @@ $(document).ready(function(){
     $('.Arrow').hide();
     $('.Container').hide();
     
-    $('#welcome').click(function() {
+    $('#start').click(function() {
         $('.Arrow').show();
-        $('#welcome').hide();
+        $('#start').hide();
         $('.Container').show();
 
         for (var i = 0; i < portfolioData.length; i++) {
